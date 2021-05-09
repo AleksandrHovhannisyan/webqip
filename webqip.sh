@@ -2,7 +2,7 @@
 
 # Helper to print usage and kill the script
 function printUsageAndKill() {
-  echo "Usage: $0 -s sourceDirectory -w width -q quality";
+  echo "Usage: `basename $0` -s sourceDirectory -w width -q quality";
   echo "Options:"
   echo "-s: (Required) Source directory in which to search for images."
   echo "-w: The width to use for each low-quality image placeholder."
