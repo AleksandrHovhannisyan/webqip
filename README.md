@@ -8,7 +8,7 @@
 2. Install the WebP libraries: `sudo apt-get install webp` (or [download the binaries](https://developers.google.com/speed/webp/docs/cwebp)).
 3. Clone this repo.
 4. Make the script executable: `chmod u+x webqip.sh`.
-5. Copy the file to `/usr/local/bin`: `sudo cp webqip.sh /usr/local/bin/webqip` (you can rename the script if you want). Alternatively, you may wish to create a symlink to it in case you ever update the script in the future.
+5. Copy the file to `/usr/local/bin`: `sudo cp webqip.sh /usr/local/bin/webqip` (you can rename the script if you want). Alternatively, you may wish to create a symlink to it in case you ever update the script in the future: `sudo ln -s ~/path/to/webqip/webqip.sh /usr/bin/webqip`.
 
 ## Usage
 
